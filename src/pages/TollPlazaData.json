@@ -1,0 +1,67 @@
+{
+    "_id": "616ac5640d6c82e57fb3f2d6",
+    "tollName": "Thandikhui ( Public Funded )",
+    "tollId": 66,
+    "tollFees": [
+        {
+            "vehicleType": "Car/Jeep/Van",
+            "single": 70,
+            "return": 105,
+            "monthly": 2380,
+            "commercialVehiclesWithinDist": 35,
+            "_id": "616c27a14cf645f67aa274f5"
+        },
+        {
+            "vehicleType": "LCV",
+            "single": 115,
+            "return": 175,
+            "monthly": 3840,
+            "commercialVehiclesWithinDist": 60,
+            "_id": "616c27a14cf645f67aa274f6"
+        },
+        {
+            "vehicleType": "Bus/Truck",
+            "single": 240,
+            "return": 360,
+            "monthly": 8045,
+            "commercialVehiclesWithinDist": 120,
+            "_id": "616c27a14cf645f67aa274f7"
+        },
+        {
+            "vehicleType": "Upto 3 Axle Vehicle",
+            "single": 265,
+            "return": 395,
+            "monthly": 8780,
+            "commercialVehiclesWithinDist": 130,
+            "_id": "616c27a14cf645f67aa274f8"
+        },
+        {
+            "vehicleType": "4 to 6 Axle",
+            "single": 380,
+            "return": 570,
+            "monthly": 12620,
+            "commercialVehiclesWithinDist": 190,
+            "_id": "616c27a14cf645f67aa274f9"
+        },
+        {
+            "vehicleType": "HCM/EME",
+            "single": 380,
+            "return": 570,
+            "monthly": 12620,
+            "commercialVehiclesWithinDist": 190,
+            "_id": "616c27a14cf645f67aa274fa"
+        },
+        {
+            "vehicleType": "7 or more Axle",
+            "single": 460,
+            "return": 690,
+            "monthly": 15365,
+            "commercialVehiclesWithinDist": 230,
+            "_id": "616c27a14cf645f67aa274fb"
+        }
+    ],
+    "effectiveFrom": "01-Apr-2021",
+    "tollableLength": "Km 46.00 Km(s)",
+    "__v": 0,
+    "isDataAvailable": true
+}
