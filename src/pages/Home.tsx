@@ -1,12 +1,24 @@
-import React from "react";
-import JsonData from "./TollPlazaData.json";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+
+//import JsonData from "./TollPlazaData.json";
+import { ITollDetails } from "../models/ITollDetails";
+//import { getTollIndiaAPI } from "../constants/endpoints";
 
 export const Home = (props: any) => {
+
+  const [tollFeeses, setTollFees] = useState<ITollDetails>({});
+  
+  useEffect(() => {
+    axios.get("https://toll-india.herokuapp.com/api/toll/16").then((response) => {
+      setTollFees(response.data as any);
+    });
+  }, [] )
 
   return (
     <div className="container.is-fullhd p-4">
       {props.children}
-      <input className="input is-info" type="text" placeholder="search here" />
+      <input className="input is-info" type="text" placeholder="search toll name" />
 
       <table className="table is-fullwidth is-hoverable">
         <thead>
@@ -19,13 +31,13 @@ export const Home = (props: any) => {
           </tr>
         </thead>
         <tbody>
-          {JsonData.tollFees.map(el => (
+          {tollFeeses.tollFees?.map(data => (
             <tr>
-              <td>{el.vehicleType}</td>
-              <td>{el.single}</td>
-              <td>{el.return}</td>
-              <td>{el.monthly}</td>
-              <td>{el.commercialVehiclesWithinDist}</td>
+              <td>{data.vehicleType}</td>
+              <td>{data.single}</td>
+              <td>{data.return}</td>
+              <td>{data.monthly}</td>
+              <td>{data.commercialVehiclesWithinDist}</td>
             </tr>
           ))}
         </tbody>
