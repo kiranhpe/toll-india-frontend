@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 //import JsonData from "./TollPlazaData.json";
-import {getTollIndiaAPI} from "../constants/endpoints";
+import { ITollDetails } from "../models/ITollDetails";
+//import { getTollIndiaAPI } from "../constants/endpoints";
 
 export const Home = (props: any) => {
 
-  var tollJsonData = axios.get(getTollIndiaAPI()).then((response) => {
-    response.data;
-  });
+  const [tollFeeses, setTollFees] = useState<ITollDetails>({});
+  
+  useEffect(() => {
+    axios.get("https://toll-india.herokuapp.com/api/toll/16").then((response) => {
+      setTollFees(response.data as any);
+    });
+  }, [] )
 
   return (
     <div className="container.is-fullhd p-4">
@@ -26,7 +31,7 @@ export const Home = (props: any) => {
           </tr>
         </thead>
         <tbody>
-          {tollJsonData.tollFees.map(data => (
+          {tollFeeses.tollFees?.map(data => (
             <tr>
               <td>{data.vehicleType}</td>
               <td>{data.single}</td>
