@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/toll-india-frontend/static/css/main.5739ad41.chunk.css",
-    "main.js": "/toll-india-frontend/static/js/main.70bb5214.chunk.js",
-    "main.js.map": "/toll-india-frontend/static/js/main.70bb5214.chunk.js.map",
-    "runtime-main.js": "/toll-india-frontend/static/js/runtime-main.8a3d0ec0.js",
-    "runtime-main.js.map": "/toll-india-frontend/static/js/runtime-main.8a3d0ec0.js.map",
+    "main.css": "/toll-india-frontend/static/css/main.a617e044.chunk.css",
+    "main.js": "/toll-india-frontend/static/js/main.72254931.chunk.js",
+    "main.js.map": "/toll-india-frontend/static/js/main.72254931.chunk.js.map",
+    "runtime-main.js": "/toll-india-frontend/static/js/runtime-main.74f7d17f.js",
+    "runtime-main.js.map": "/toll-india-frontend/static/js/runtime-main.74f7d17f.js.map",
     "static/css/2.41953c31.chunk.css": "/toll-india-frontend/static/css/2.41953c31.chunk.css",
-    "static/js/2.1f731a9e.chunk.js": "/toll-india-frontend/static/js/2.1f731a9e.chunk.js",
-    "static/js/2.1f731a9e.chunk.js.map": "/toll-india-frontend/static/js/2.1f731a9e.chunk.js.map",
-    "static/js/3.b6c72382.chunk.js": "/toll-india-frontend/static/js/3.b6c72382.chunk.js",
-    "static/js/3.b6c72382.chunk.js.map": "/toll-india-frontend/static/js/3.b6c72382.chunk.js.map",
+    "static/js/2.37ab5b73.chunk.js": "/toll-india-frontend/static/js/2.37ab5b73.chunk.js",
+    "static/js/2.37ab5b73.chunk.js.map": "/toll-india-frontend/static/js/2.37ab5b73.chunk.js.map",
+    "static/js/3.3b65ed4d.chunk.js": "/toll-india-frontend/static/js/3.3b65ed4d.chunk.js",
+    "static/js/3.3b65ed4d.chunk.js.map": "/toll-india-frontend/static/js/3.3b65ed4d.chunk.js.map",
     "index.html": "/toll-india-frontend/index.html",
     "static/css/2.41953c31.chunk.css.map": "/toll-india-frontend/static/css/2.41953c31.chunk.css.map",
-    "static/css/main.5739ad41.chunk.css.map": "/toll-india-frontend/static/css/main.5739ad41.chunk.css.map",
-    "static/js/2.1f731a9e.chunk.js.LICENSE.txt": "/toll-india-frontend/static/js/2.1f731a9e.chunk.js.LICENSE.txt"
+    "static/css/main.a617e044.chunk.css.map": "/toll-india-frontend/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.37ab5b73.chunk.js.LICENSE.txt": "/toll-india-frontend/static/js/2.37ab5b73.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a3d0ec0.js",
+    "static/js/runtime-main.74f7d17f.js",
     "static/css/2.41953c31.chunk.css",
-    "static/js/2.1f731a9e.chunk.js",
-    "static/css/main.5739ad41.chunk.css",
-    "static/js/main.70bb5214.chunk.js"
+    "static/js/2.37ab5b73.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.72254931.chunk.js"
   ]
 }
