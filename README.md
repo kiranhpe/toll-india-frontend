@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/kiranhpe/toll-india-frontend/actions/workflows/nodejs.yml/badge.svg)](https://github.com/kiranhpe/toll-india-frontend/actions/workflows/nodejs.yml)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
