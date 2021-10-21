@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/toll-india-frontend/static/css/main.a617e044.chunk.css",
-    "main.js": "/toll-india-frontend/static/js/main.72254931.chunk.js",
-    "main.js.map": "/toll-india-frontend/static/js/main.72254931.chunk.js.map",
+    "main.js": "/toll-india-frontend/static/js/main.684eda00.chunk.js",
+    "main.js.map": "/toll-india-frontend/static/js/main.684eda00.chunk.js.map",
     "runtime-main.js": "/toll-india-frontend/static/js/runtime-main.74f7d17f.js",
     "runtime-main.js.map": "/toll-india-frontend/static/js/runtime-main.74f7d17f.js.map",
     "static/css/2.41953c31.chunk.css": "/toll-india-frontend/static/css/2.41953c31.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.41953c31.chunk.css",
     "static/js/2.37ab5b73.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.72254931.chunk.js"
+    "static/js/main.684eda00.chunk.js"
   ]
 }
