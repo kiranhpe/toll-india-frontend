@@ -1,12 +1,19 @@
 import React from "react";
-import JsonData from "./TollPlazaData.json";
+import axios from "axios";
+
+//import JsonData from "./TollPlazaData.json";
+import {getTollIndiaAPI} from "../constants/endpoints";
 
 export const Home = (props: any) => {
+
+  var tollJsonData = axios.get(getTollIndiaAPI()).then((response) => {
+    response.data;
+  });
 
   return (
     <div className="container.is-fullhd p-4">
       {props.children}
-      <input className="input is-info" type="text" placeholder="search here" />
+      <input className="input is-info" type="text" placeholder="search toll name" />
 
       <table className="table is-fullwidth is-hoverable">
         <thead>
@@ -19,13 +26,13 @@ export const Home = (props: any) => {
           </tr>
         </thead>
         <tbody>
-          {JsonData.tollFees.map(el => (
+          {tollJsonData.tollFees.map(data => (
             <tr>
-              <td>{el.vehicleType}</td>
-              <td>{el.single}</td>
-              <td>{el.return}</td>
-              <td>{el.monthly}</td>
-              <td>{el.commercialVehiclesWithinDist}</td>
+              <td>{data.vehicleType}</td>
+              <td>{data.single}</td>
+              <td>{data.return}</td>
+              <td>{data.monthly}</td>
+              <td>{data.commercialVehiclesWithinDist}</td>
             </tr>
           ))}
         </tbody>

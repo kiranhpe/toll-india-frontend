@@ -16,7 +16,7 @@ export const Header = () => {
                 target="_blank">
                 Covid-19 Statistics
               </a>
-              <a className="navbar-item" href="http://toll-india.herokuapp.com/api/toll/66"
+              <a className="navbar-item" href="http://toll-india.herokuapp.com/api/toll/"
                 target="_blank">
                 Toll India API
               </a>
