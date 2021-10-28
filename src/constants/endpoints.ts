@@ -4,16 +4,10 @@ export const getTollIndiaAPI = () => {
     return "https://toll-india.herokuapp.com/api/toll/16";
 }
 
-/*
-export var getTollIndiaData = () => {
-    try {
-        axios.get(getTollIndiaAPI()).then((tollIndiaData) => {
-            return tollIndiaData;
-        });
-    } catch (error) {
-        console.log(error);
-    }
-    
+export var getTollIndiaAllAPI = () => {
+    return "https://toll-india.herokuapp.com/api/toll/";
+}
 
-    //axios.get(getTollIndiaAPI()).then((tollIndiaApiData) => )
-} */
+export var getTollIndiaNameAPI = () => {
+    return "https://toll-india.herokuapp.com/api/toll/search?name=";
+}
